@@ -32,7 +32,7 @@ function randomIP() {
     return str;
 }
 
-for (let i = 0; i < 8192; i++) {
+for (let i = 0; i < 81920; i++) {
     serverList.push({ip: randomIP(), port: Math.floor(1024 + Math.random() * 8192)});
 }
 
